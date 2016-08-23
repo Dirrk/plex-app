@@ -1,0 +1,37 @@
+{
+  "name": "plex-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "plex-manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "bencode": "^0.10.0",
+    "bluebird": "^3.4.1",
+    "deepen": "^1.0.0",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.5.0",
+    "inert": "^4.0.1",
+    "joi": "^8.4.2",
+    "lodash": "^4.13.1",
+    "lokijs": "^1.4.1",
+    "lout": "^9.1.0",
+    "minimist": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "plex-api": "^3.5.0",
+    "vision": "^4.1.0",
+    "winston": "^2.2.0",
+    "wreck": "^8.0.1",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "should": "^8.4.0",
+    "sinon": "^1.17.3"
+  },
+  "author": "Derek Rada",
+  "license": "ISC"
+}
