@@ -1,3 +1,6 @@
 node_modules
 coverage
 db.*
+lib/web/public
+lib/web/compiled
+npm-debug.log

@@ -5,12 +5,23 @@
   "description": "plex-manager",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "clean": "rm -rf ./lib/web/public && rm -rf ./lib/web/compiled",
+    "tsc": "cd ./lib/web && tsc"
   },
   "dependencies": {
+    "@angular/common": "^2.0.0-rc.5",
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/http": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.5",
+    "@angular/router": "^3.0.0-rc.1",
     "bencode": "^0.10.0",
     "bluebird": "^3.4.1",
+    "core-js": "^2.4.1",
     "deepen": "^1.0.0",
+    "es6-shim": "^0.35.1",
     "handlebars": "^4.0.5",
     "hapi": "^13.5.0",
     "inert": "^4.0.1",
@@ -21,16 +32,23 @@
     "minimist": "^1.2.0",
     "node-uuid": "^1.4.7",
     "plex-api": "^3.5.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.6",
     "vision": "^4.1.0",
+    "webpack": "^1.13.2",
     "winston": "^2.2.0",
     "wreck": "^8.0.1",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
+    "zone.js": "^0.6.17"
   },
   "devDependencies": {
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "should": "^8.4.0",
-    "sinon": "^1.17.3"
+    "sinon": "^1.17.3",
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
   },
   "author": "Derek Rada",
   "license": "ISC"
